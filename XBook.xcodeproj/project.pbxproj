@@ -1479,7 +1479,7 @@
 					"-lc++",
 					"-lsqlite3",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = wistron.XBook;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.zhangwu.XBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = XBook/bridging.h;
 			};
@@ -1509,7 +1509,7 @@
 					"-lc++",
 					"-lsqlite3",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = wistron.XBook;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.zhangwu.XBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = XBook/bridging.h;
 			};
