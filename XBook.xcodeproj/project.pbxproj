@@ -13,8 +13,6 @@
 		E217B2171CB3461C006E8801 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E217B2161CB3461C006E8801 /* AppDelegate.swift */; };
 		E217B21E1CB3461C006E8801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E217B21D1CB3461C006E8801 /* Assets.xcassets */; };
 		E217B2211CB3461C006E8801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E217B21F1CB3461C006E8801 /* LaunchScreen.storyboard */; };
-		E217B22C1CB3461C006E8801 /* XBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E217B22B1CB3461C006E8801 /* XBookTests.swift */; };
-		E217B2371CB3461C006E8801 /* XBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E217B2361CB3461C006E8801 /* XBookUITests.swift */; };
 		E217B2481CB347E5006E8801 /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E217B2471CB347E5006E8801 /* AVOSCloud.framework */; };
 		E217B24A1CB347F5006E8801 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E217B2491CB347F5006E8801 /* SystemConfiguration.framework */; };
 		E217B24C1CB347FE006E8801 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E217B24B1CB347FE006E8801 /* MobileCoreServices.framework */; };
@@ -153,23 +151,6 @@
 		E2FE5D7D1CB6018400D66B23 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE5D6A1CB6018400D66B23 /* UIView+MJExtension.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E217B2281CB3461C006E8801 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E217B20B1CB3461C006E8801 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E217B2121CB3461C006E8801;
-			remoteInfo = XBook;
-		};
-		E217B2331CB3461C006E8801 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E217B20B1CB3461C006E8801 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E217B2121CB3461C006E8801;
-			remoteInfo = XBook;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		E210C14F1CB77919000FFCAF /* BookDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
 		E210C1511CB77B71000FFCAF /* BookDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
@@ -179,12 +160,6 @@
 		E217B21D1CB3461C006E8801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E217B2201CB3461C006E8801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E217B2221CB3461C006E8801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E217B2271CB3461C006E8801 /* XBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E217B22B1CB3461C006E8801 /* XBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XBookTests.swift; sourceTree = "<group>"; };
-		E217B22D1CB3461C006E8801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E217B2321CB3461C006E8801 /* XBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E217B2361CB3461C006E8801 /* XBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XBookUITests.swift; sourceTree = "<group>"; };
-		E217B2381CB3461C006E8801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E217B2471CB347E5006E8801 /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloud.framework; sourceTree = "<group>"; };
 		E217B2491CB347F5006E8801 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		E217B24B1CB347FE006E8801 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -424,20 +399,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E217B2241CB3461C006E8801 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E217B22F1CB3461C006E8801 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -490,8 +451,6 @@
 				E217B2651CB360BE006E8801 /* resource */,
 				E217B2441CB3469A006E8801 /* framework */,
 				E217B2151CB3461C006E8801 /* XBook */,
-				E217B22A1CB3461C006E8801 /* XBookTests */,
-				E217B2351CB3461C006E8801 /* XBookUITests */,
 				E217B2141CB3461C006E8801 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -500,8 +459,6 @@
 			isa = PBXGroup;
 			children = (
 				E217B2131CB3461C006E8801 /* XBook.app */,
-				E217B2271CB3461C006E8801 /* XBookTests.xctest */,
-				E217B2321CB3461C006E8801 /* XBookUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -526,24 +483,6 @@
 				E217B2521CB34991006E8801 /* config.swift */,
 			);
 			path = XBook;
-			sourceTree = "<group>";
-		};
-		E217B22A1CB3461C006E8801 /* XBookTests */ = {
-			isa = PBXGroup;
-			children = (
-				E217B22B1CB3461C006E8801 /* XBookTests.swift */,
-				E217B22D1CB3461C006E8801 /* Info.plist */,
-			);
-			path = XBookTests;
-			sourceTree = "<group>";
-		};
-		E217B2351CB3461C006E8801 /* XBookUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E217B2361CB3461C006E8801 /* XBookUITests.swift */,
-				E217B2381CB3461C006E8801 /* Info.plist */,
-			);
-			path = XBookUITests;
 			sourceTree = "<group>";
 		};
 		E217B2441CB3469A006E8801 /* framework */ = {
@@ -1098,42 +1037,6 @@
 			productReference = E217B2131CB3461C006E8801 /* XBook.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E217B2261CB3461C006E8801 /* XBookTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E217B23E1CB3461C006E8801 /* Build configuration list for PBXNativeTarget "XBookTests" */;
-			buildPhases = (
-				E217B2231CB3461C006E8801 /* Sources */,
-				E217B2241CB3461C006E8801 /* Frameworks */,
-				E217B2251CB3461C006E8801 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E217B2291CB3461C006E8801 /* PBXTargetDependency */,
-			);
-			name = XBookTests;
-			productName = XBookTests;
-			productReference = E217B2271CB3461C006E8801 /* XBookTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E217B2311CB3461C006E8801 /* XBookUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E217B2411CB3461C006E8801 /* Build configuration list for PBXNativeTarget "XBookUITests" */;
-			buildPhases = (
-				E217B22E1CB3461C006E8801 /* Sources */,
-				E217B22F1CB3461C006E8801 /* Frameworks */,
-				E217B2301CB3461C006E8801 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E217B2341CB3461C006E8801 /* PBXTargetDependency */,
-			);
-			name = XBookUITests;
-			productName = XBookUITests;
-			productReference = E217B2321CB3461C006E8801 /* XBookUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1147,16 +1050,6 @@
 					E217B2121CB3461C006E8801 = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = 8LP5KW6GHL;
-					};
-					E217B2261CB3461C006E8801 = {
-						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 8LP5KW6GHL;
-						TestTargetID = E217B2121CB3461C006E8801;
-					};
-					E217B2311CB3461C006E8801 = {
-						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 8LP5KW6GHL;
-						TestTargetID = E217B2121CB3461C006E8801;
 					};
 				};
 			};
@@ -1174,8 +1067,6 @@
 			projectRoot = "";
 			targets = (
 				E217B2121CB3461C006E8801 /* XBook */,
-				E217B2261CB3461C006E8801 /* XBookTests */,
-				E217B2311CB3461C006E8801 /* XBookUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -1229,20 +1120,6 @@
 				E27D13CA1CB4B015006784E0 /* blank.png in Resources */,
 				E27D14001CB508B5006784E0 /* segmented-bg-pressed-center@2x.png in Resources */,
 				E27D13CB1CB4B015006784E0 /* Blank2.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E217B2251CB3461C006E8801 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E217B2301CB3461C006E8801 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1334,36 +1211,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E217B2231CB3461C006E8801 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E217B22C1CB3461C006E8801 /* XBookTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E217B22E1CB3461C006E8801 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E217B2371CB3461C006E8801 /* XBookUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E217B2291CB3461C006E8801 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E217B2121CB3461C006E8801 /* XBook */;
-			targetProxy = E217B2281CB3461C006E8801 /* PBXContainerItemProxy */;
-		};
-		E217B2341CB3461C006E8801 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E217B2121CB3461C006E8801 /* XBook */;
-			targetProxy = E217B2331CB3461C006E8801 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E217B21F1CB3461C006E8801 /* LaunchScreen.storyboard */ = {
@@ -1520,58 +1368,6 @@
 			};
 			name = Release;
 		};
-		E217B23F1CB3461C006E8801 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 8LP5KW6GHL;
-				INFOPLIST_FILE = XBookTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tech.zhangwu.XBookTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XBook.app/XBook";
-			};
-			name = Debug;
-		};
-		E217B2401CB3461C006E8801 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 8LP5KW6GHL;
-				INFOPLIST_FILE = XBookTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tech.zhangwu.XBookTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XBook.app/XBook";
-			};
-			name = Release;
-		};
-		E217B2421CB3461C006E8801 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 8LP5KW6GHL;
-				INFOPLIST_FILE = XBookUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wistron.XBookUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = XBook;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		E217B2431CB3461C006E8801 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 8LP5KW6GHL;
-				INFOPLIST_FILE = XBookUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wistron.XBookUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = XBook;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1589,24 +1385,6 @@
 			buildConfigurations = (
 				E217B23C1CB3461C006E8801 /* Debug */,
 				E217B23D1CB3461C006E8801 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E217B23E1CB3461C006E8801 /* Build configuration list for PBXNativeTarget "XBookTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E217B23F1CB3461C006E8801 /* Debug */,
-				E217B2401CB3461C006E8801 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E217B2411CB3461C006E8801 /* Build configuration list for PBXNativeTarget "XBookUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E217B2421CB3461C006E8801 /* Debug */,
-				E217B2431CB3461C006E8801 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
